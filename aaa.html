@@ -1,0 +1,140 @@
+<!-- Created by Ferhat Sevim-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+	<style>
+	/* Created by Ferhat Sevim */
+p{
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  width: 880px;
+  border: 3px solid #73AD21;
+}
+
+body{
+
+font-size:55px;
+text-align: center;
+color:red;
+
+font-family: 'Handlee', cursive;
+background-image: url('vat.jpg');
+background-size:2128px 4608px;
+background-repeat: no-repeat;
+}
+.cube{
+    perspective:500px;
+    perspective-origin:50% 300px;
+}
+.cube-face{
+    margin:100px;
+    top:10px;
+    right:55px;
+    width:100px;
+    height:100px;
+    position:relative;
+    transform-style:preserve-3d;
+    animation:up 5s  infinite linear;
+    
+    transition:width 10s linear;
+    opacity:1;
+   
+}
+
+.cube-face2{
+    margin:100px;
+    top:10px;
+    left:1600px;
+    width:100px;
+    height:100px;
+    position:relative;
+    transform-style:preserve-3d;
+    animation:up 5s  infinite linear;
+    
+    transition:width 10s linear;
+    opacity:1;
+   
+}
+
+div:hover{
+    width:100px;
+}
+.cube-face div{
+    width:100px;
+    height:100px;
+    position:relative;
+    
+
+}
+.cube-face-front{
+
+    transform:translateX(25px);
+    
+}
+
+.baloon{
+margin:-50px;
+    top:10px;
+    right:70px;
+    width:100px;
+    height:100px
+img{float:top ;}
+position:absolute;
+    transform-style:preserve-3d;
+    animation:down 5s infinite  linear;
+    transition:width 10s linear;
+     opacity:0.7;
+}
+@keyframes up{
+    from {
+    
+    transform:translate(0px,500px);
+    -webkit-transform:translate(0px,-300px);
+    
+    }
+    to {
+    
+    transform:translate(0px, 0px);
+    -webkit-transform:translate(0px, 50px);
+    
+    }
+}
+@keyframes down{
+    from {
+    
+    transform:translate(500px,500px);
+    -webkit-transform:translate(0px,400px);
+    
+    }
+    to {
+    
+    transform:translate(0px, 0px);
+    -webkit-transform:translate(0px,-200px);
+    
+    }
+}
+	</style>
+		<marquee width="60%" direction="up" behavior="alternate"><marquee direction="right" scrollamount="20" behavior="alternate"><center>HAPPY</br> BIRTHDAY!</center></marquee></marquee>
+        <div class="cube-face">
+			<div class="baloon"><img src="http://www.iconhot.com/icon/png/event-people/512/balloons-1.png"/></div> 
+        </div>
+			<p>
+			Hello My Love,<br>
+
+			first of all , coding is not easy , it took me more than 2 hr to code this fuck i m slow at this
+
+			Baby, I love you, i hope you get all the love and happiness, you deserve all the love in the world
+
+			I wish you a very happy bday bitch, come soon , i miss you I love you.
+			always.
+			<p>
+		<div class="cube-face2">
+			<div class="baloon"><img src="http://www.iconhot.com/icon/png/event-people/512/balloons-1.png"/></div> 
+        </div>
+    </body>
+</html>
